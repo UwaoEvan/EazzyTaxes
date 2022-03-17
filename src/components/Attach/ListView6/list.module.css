@@ -1,0 +1,31 @@
+.cont {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.leftCont {
+    display: flex;
+}
+.num {
+    display: flex;
+    width: 20px;
+    margin-right: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.numDetails {
+    font-weight: bold;
+    margin: 0 2px
+}
+.title {
+    margin-right: 5px;
+}
+.title1 {
+    margin: 0 5px;
+}
+.num1 {
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+}

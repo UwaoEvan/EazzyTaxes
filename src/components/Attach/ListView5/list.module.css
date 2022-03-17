@@ -1,0 +1,46 @@
+.cont {
+    width: 100%;
+}
+.innerCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftCont {
+    display: flex;
+}
+.num1 {
+    width: 20px;
+    margin-right: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.check1 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px
+}
+.num {
+    margin-right: 5px;
+    font-weight: bold;
+}
+.check {
+    margin-right: 5px;;
+}
+.rightCont {
+    display: flex;
+    align-items: center;
+}
+.input {
+    width: 80px;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:#f0f4ff;
+}
+.dot {
+    margin-left: 10px;
+    letter-spacing: 5px;
+}

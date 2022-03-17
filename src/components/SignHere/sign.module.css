@@ -1,0 +1,68 @@
+.cont {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #000;
+
+}
+.leftCont {
+    background-color: #fff;
+    min-width: 100px;
+    padding-top: 5px;
+}
+
+.innerCont {
+    padding-top: 5px;
+    max-width: 780px;
+    font-size: 11px;
+    position: relative;
+}
+.arrow2{
+    width: 0;
+    height: 0;
+    border-left: 20px solid #000;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 50px
+}
+.text {
+    padding-left: 40px;
+}
+.bottomCont {
+    background-color: #fff;
+    display: flex;
+    padding-left: 40px;
+    width: 100%
+}
+.phoneCont {
+    display: flex;
+    width: 386px;
+    border-right: 1px solid #000;
+    
+}
+.emailCont {
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+}
+.input {
+    width: 100%;
+    border: none;
+    background-color:#f0f4ff;
+}
+.einput {
+    width: 100%;
+    border: none;
+    background-color:#f0f4ff;
+}
+.phone {
+    font-size: 9px;
+}
+.email{
+    font-size: 9px;
+    width: 125px;
+}
+.subTitle{
+    font-size: 10px;
+    margin-top: 20px;
+}

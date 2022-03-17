@@ -1,0 +1,16 @@
+.cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+.number {
+    font-weight: bold;
+    margin-left: 5px;
+    width: 20px;
+    margin-right: 18px;
+    text-align: center;
+}
+.leftCnt {
+    display: flex;
+    align-items: center;
+}

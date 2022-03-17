@@ -1,0 +1,33 @@
+.cont {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.leftCont {
+    background-color: #fff;
+    width: 100px;
+}
+.leftText {
+    font-size: 12px;
+    
+}
+.h5 {
+    margin-top: 2px;
+}
+.innerCont {
+    width: 780px;
+    font-size: 12px;
+}
+.note {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    height: 20px;
+}
+.bold {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.title {
+    margin-top: 5px;
+}

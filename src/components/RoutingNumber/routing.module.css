@@ -1,0 +1,17 @@
+.cont {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    border-right: 1px dashed #000;
+    margin-left: 3px;
+}
+.input {
+    border-left: 1px dashed #000;
+    width: 100%;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    outline: none;
+    background-color:#f0f4ff;
+}

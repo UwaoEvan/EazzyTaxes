@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import Header from './components/Header/Header';
+import FillingStatus from './components/FillingStatus/FillingStatus';
+import Names from './components/Names/Names'
+import Question from './components/Question/Question';
+import StandardDeduction from './components/StandardDeduction/StandardDeduction';
+import Dependents from './components/Dependents/Dependents';
+import Attach from './components/Attach/Attach';
+import Refund from './components/Refund/Refund';
+import AmountOwed from './components/AmountOwed/AmountOwed';
+import ThirdParty from './components/ThirdParty/ThirdParty';
+import SignHere from './components/SignHere/SignHere';
+import Paid from './components/Paid /Paid';
+import Footer from './components/Footer/Footer'
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <form className="App">
+        <Header/>
+        <FillingStatus/>
+        <Names/>
+        <Question/>
+        <StandardDeduction/>
+        <Dependents/>
+        <Attach/>
+        <Refund/>
+        <AmountOwed/>
+        <ThirdParty/>
+        <SignHere/>
+        <Paid/>
+        <Footer/>
+      </form>
   );
 }
 
-export default App;

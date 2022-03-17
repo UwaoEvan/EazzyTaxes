@@ -1,0 +1,50 @@
+.cont{
+    display: flex;
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+}
+.sideBar{
+    background-color: #fff;
+    min-width: 100px;
+}
+.sideTxt{
+    font-size: 12px;
+    margin-right: 5px;
+}
+.innerCont{
+    max-width: 780px;
+    display: flex;
+}
+.instructions {
+    width: 300px;
+    font-size: 10px;
+}
+.socialNumber {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #000;
+}
+.check {
+    display: flex;
+    border-top: 1px solid #000;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70px;
+    border-left: 1px solid #000;
+}
+.tableHead {
+    height: 30px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.checkB {
+    display: flex;
+    align-items: center;
+}

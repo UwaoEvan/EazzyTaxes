@@ -1,0 +1,13 @@
+.cont {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+.number {
+    font-weight: bold;
+    padding-left: 5px;
+}
+.title {
+    width: 150px;
+    margin-left: 5px;
+}

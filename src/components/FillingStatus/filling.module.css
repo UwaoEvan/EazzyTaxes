@@ -1,0 +1,42 @@
+.container {
+    height: 62px;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.leftCont {
+    padding-top: 10px;
+    background-color: #fff;
+    width: 110px;
+    height: 100%;
+}
+.leftText {
+    font-size: 12px;
+}
+.checks {
+    width: 770px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;;
+}
+.textCont {
+    margin: 5px 10px 0;
+}
+.text {
+    font-size: 12px;
+}
+.input {
+    background-color: #f0f4ff;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+}
+.bottomCont {
+    display: flex;
+}
+.inputCont {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 10px;
+}

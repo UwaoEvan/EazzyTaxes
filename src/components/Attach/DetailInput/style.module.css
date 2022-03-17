@@ -1,0 +1,11 @@
+.cont {
+    display: flex;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.input {
+    background-color:#f0f4ff;
+    width: 100%;
+    border: none;
+    outline: none;
+}

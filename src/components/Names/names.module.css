@@ -1,0 +1,27 @@
+.name {
+    background-color: #fff;
+}
+.nameCont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nameTop {
+    display: flex;
+}
+.nameTopCont {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.bottomTxt {
+    background-color: #d3fffb;
+    padding: 5px;
+    width: 100%;
+}
+.text {
+    font-size: 12px;
+}
+.check {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
